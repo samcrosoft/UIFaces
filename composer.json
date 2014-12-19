@@ -1,5 +1,5 @@
 {
-    "name": "samcrsoft/uifaces",
+    "name": "samcrosoft/uifaces",
     "description": "This is a library that allows you to access the ui faces api",
     "require": {
         "guzzlehttp/guzzle": "~5.0"
