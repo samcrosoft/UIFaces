@@ -1,0 +1,18 @@
+{
+    "name": "samcrsoft/uifaces",
+    "description": "This is a library that allows you to access the ui faces api",
+    "require": {
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Samcrosoft\\UIFaces\\": "src"}
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "samcrosoft",
+            "email": "samcrosoft@gmail.com"
+        }
+    ]
+}
