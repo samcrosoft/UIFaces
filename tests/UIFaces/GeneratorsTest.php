@@ -84,6 +84,9 @@ class GeneratorsTest extends PHPUnit_Framework_TestCase
     }
 
 
+    /**
+     *
+     */
     public function testBatchUsersRequest()
     {
         $aReturnedUsers = $this->oGenerator->getBatchUsers(5);
