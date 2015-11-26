@@ -1,19 +1,23 @@
 {
-    "name": "samcrosoft/uifaces",
-    "description": "This is a library that allows you to access the ui faces api",
-    "version": "0.1.0",
-    "require": {
-        "guzzlehttp/guzzle": "~6.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Samcrosoft\\UIFaces\\": "src"}
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "samcrosoft",
-            "email": "samcrosoft@gmail.com"
-        }
-    ]
+  "name": "samcrosoft/uifaces",
+  "description": "This is a library that allows you to access the ui faces api",
+  "version": "0.1.0",
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "phpunit/phpunit": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Samcrosoft\\UIFaces\\": "src"
+    }
+  },
+  "require-dev": {
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "samcrosoft",
+      "email": "samcrosoft@gmail.com"
+    }
+  ]
 }
