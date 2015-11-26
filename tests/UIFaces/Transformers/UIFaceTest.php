@@ -1,6 +1,8 @@
 <?php
 namespace UIFaces\Tests\Transformers;
 use PHPUnit_Framework_TestCase;
+use Samcrosoft\UIFaces\Generators;
+use Samcrosoft\UIFaces\Transformers\UIFace;
 
 /**
  * Created by PhpStorm.
@@ -11,4 +13,22 @@ use PHPUnit_Framework_TestCase;
 class UIFaceTest extends PHPUnit_Framework_TestCase
 {
 
+    /**
+     * @var null|Generators
+     */
+    private $oGenerator = null;
+
+    public function setUp()
+    {
+        $this->oGenerator = new Generators();
+    }
+
+
+    /**
+     * @test
+     */
+    public function testResultIsInstanceOfUIFaces()
+    {
+        $this->assertInstanceOf(UIFace::class, $this->oGenerator->getRandomUser());
+    }
 }
