@@ -4,7 +4,6 @@ UIFaces
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/samcrosoft/uifaces.svg?style=flat-square)](https://packagist.org/packages/samcrosoft/uifaces)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://travis-ci.org/samcrosoft/UIFaces.svg?branch=master)](https://travis-ci.org/samcrosoft/UIFaces)
-[![Quality Score](https://img.shields.io/scrutinizer/g/samcrosoft/uifaces.svg?style=flat-square)](https://scrutinizer-ci.com/g/samcrosoft/uifaces)
 [![Total Downloads](https://img.shields.io/packagist/dt/samcrosoft/uifaces.svg?style=flat-square)](https://packagist.org/packages/samcrosoft/uifaces)
 
 UIFaces is a well written, lightweight PHP library that helps communicate with the UIFaces API
